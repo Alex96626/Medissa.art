@@ -80,8 +80,7 @@ img {
 }
 
 .container_service-1 {
-    /* display: flex;
-    justify-content: space-between; */
+    
     padding: 220px 15px 165px 15px;
     
     
@@ -115,7 +114,7 @@ img {
 .section-text {
     font-size: 21px;
     line-height: 1.6em;
-    font-family: 'Monserat Reagular';
+    font-family: 'Monserat Regular';
 }
 
 .tel-input {
@@ -165,6 +164,8 @@ img {
     z-index: 1;
 }
 
+
+
 /* service-1! */
 
 /* service-2 */
@@ -186,7 +187,7 @@ img {
 .section-sub-title {
     margin: 10px 0 25px 0;
     font-size: 33px;
-    line-height: 0.8;
+    line-height: 1.3em;
     font-family: 'Monserat Regular';
     text-align: center;
     color: #7d817b;
@@ -401,7 +402,7 @@ img {
 
 .form-record-sub-title {
     text-align: center;
-    font-family: Monserat Regular;
+    font-family: 'Monserat Regular';
     line-height: 1.8em;
     color: #22abde;
 }
@@ -502,7 +503,7 @@ img {
 .info-service-5-title {
     font-size: 27px;
     color: #fff;
-    font-family: 'Monserat SemiBolt';
+    font-family: 'Monserat SemiBold';
 }
 
 .info-service-5-text {
@@ -528,6 +529,10 @@ img {
 /* service-5! */
 
 /* service-6 */
+
+.container-service-6 {
+    padding: 100px 15px;
+}
 
 /* service-6! */
 
@@ -653,6 +658,8 @@ img {
 }
 
 .container-service-10 {
+    display: flex;
+    flex-direction: column;
     padding: 120px 15px 90px 15px;
 }
 
@@ -715,6 +722,7 @@ img {
 
 .active-service-price-list {
     flex: 1 100%;
+    display: none;
 }
 
 .active-service-price-list-section {
@@ -801,11 +809,14 @@ img {
 
 .more-info-service-point-discount {
     margin-bottom: 10px;
+    text-decoration: line-through;
+	
     /* color: #00b1ff; */
 }
 
 .wrapper-info-service-price:nth-child(2n) .more-info-service-point-discount{
     color: #00b1ff;
+    text-decoration-color: #059de4;
 }
 
 .action {
@@ -817,6 +828,16 @@ img {
     line-height: 1.2em;
     background: #00b1ff;
     color: #fff;     
+}
+
+.btn-show-more-price {
+    background: #fff;
+    color: #117db7;
+}
+
+.btn-show-more-price-before {
+    margin-top: 20px;
+    align-self: center;
 }
 
 /* service-10! */
