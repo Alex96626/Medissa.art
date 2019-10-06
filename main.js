@@ -30,9 +30,21 @@ $('.reviews-list').slick({
     arrows :true,
     responsive: [
         {
-            breakpoint: 1101,
+            breakpoint: 1300,
             settings: {
-                variableWidth: false,
+                slidesToShow: 2,
+                // centerMode:true,
+                // initialSlide:1,
+                
+                
+            }
+        },
+
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                centerMode:true,
             }
         },
     ]
@@ -47,8 +59,17 @@ $('.examples-slider').slick({
     arrows :true,
     responsive: [
         {
-            breakpoint: 1101,
+            breakpoint: 1300,
             settings: {
+                slidesToShow: 2,
+                
+            }
+        },
+
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
                 
             }
         },
