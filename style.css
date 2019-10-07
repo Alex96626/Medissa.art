@@ -1232,11 +1232,11 @@ img {
 
     .active-service-list-subtitle-1 {
         flex: 3;
-        line-height: 2em;
+        line-height: 1.4em;
     }
     
     .active-service-price-list-section {
-        line-height: 2em;
+        line-height: 1.4em;
     }
     
 }
