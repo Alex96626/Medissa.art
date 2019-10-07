@@ -1220,14 +1220,15 @@ img {
 
     .active-service-price-list {
         overflow: auto;
+        min-width: 600px;
     }
 
     .wrapper-info-service-price {
-       min-width: 600px;
+       /* min-width: 600px; */
     }
 
     .active-service-price-list-section {
-        width: 100vh;
+        /* width: 100vh; */
     }
 
     .active-service-list-subtitle-1 {
