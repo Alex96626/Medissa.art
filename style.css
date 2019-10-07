@@ -1073,6 +1073,10 @@ img {
         margin: 0 10px;
         white-space: nowrap;
     }
+
+    .active-service-list-subtitle {
+        margin: 0 10px;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -1206,6 +1210,10 @@ img {
         margin-right:5px;
     }
 
+    .container-service-6 {
+        padding: 50px 15px;
+    }
+
 }
 
 @media (max-width: 850px) {
@@ -1215,7 +1223,7 @@ img {
     }
 
     .wrapper-info-service-price {
-        width: 100vh;
+       min-width: 600px;
     }
 
     .active-service-price-list-section {
@@ -1301,6 +1309,10 @@ img {
     .examples-slider .slick-prev {
         left: 12%;
         transform: translate(0, -50%);
+    }
+
+    .container-service-4 {
+        padding: 100px 15px 90px 15px;
     }
 }
 
