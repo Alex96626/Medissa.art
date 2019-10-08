@@ -987,6 +987,10 @@ img {
     align-self: center;
 }
 
+.active-service-list-subtitle-1 {
+    margin-left: 0 !important;
+}
+
 /* service-10! */
 
 /* service-11 */
@@ -1206,11 +1210,11 @@ img {
     }
 
     .active-service-list-subtitle-1 {
-        flex: 5;
+        /* flex: 5; */
     }
 
     .more-info-service-text {
-        flex: 5;
+        /* flex: 5; */
     }
 
 
@@ -1300,7 +1304,7 @@ img {
     }
 
     .more-info-service-text {
-        flex: 3;
+        flex: 4;
         margin-right:5px;
     }
 
@@ -1332,6 +1336,10 @@ img {
     .active-service-list-subtitle-1 {
         flex: 3;
         line-height: 1.4em;
+    }
+
+    .more-info-service-text {
+        flex: 3;
     }
     
     .active-service-price-list-section {
