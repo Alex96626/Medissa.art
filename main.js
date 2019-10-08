@@ -2,6 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let selector = selector => document.querySelector(selector);
     let selectorAll = selector => document.querySelectorAll(selector);
+    // if(selector(".show-service-price").classList.contains("show-service-price-active")){
+    //     selector(".active-service-price-list").add("active-service-price-list-active")
+    // }
+
     selector(".service-price-list").addEventListener("click",(event)=> {
         console.log(selector(".service-price-list"));
         console.log(event.target);
@@ -83,5 +87,8 @@ $(function(){
         no_overlay: true,
     });
   });
+
+
+  
 
 });
