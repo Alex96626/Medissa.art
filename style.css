@@ -430,7 +430,7 @@ img {
     font-size: 24px;
     line-height: 1.1em;
     color: #fff;
-    
+
 }
 
 .button-line {
@@ -1314,11 +1314,15 @@ img {
 
     .active-service-price-list {
         overflow: auto;
-        min-width: 600px;
+       
+    } 
+
+    .active-service-price-list-section {
+        min-width: 700px;
     }
 
     .wrapper-info-service-price {
-       /* min-width: 600px; */
+       min-width: 700px;
     }
 
     .active-service-price-list-section {
