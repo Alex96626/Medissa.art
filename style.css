@@ -427,9 +427,9 @@ img {
 
 .service-4-title {
     flex: 1.4;
-    font-size: 24px;
+    font-size: 24px !important;
     line-height: 1.1em;
-    color: #fff;
+    /* color: #fff; */
 
 }
 
@@ -457,6 +457,7 @@ img {
 .free-survey-item {
     padding-left: 48px;
     margin: 28px 0;
+    font-size: 27px;
     background: url(image/list-icon.png) no-repeat left;
 }
 
@@ -776,13 +777,22 @@ img {
 
 .service-8-info-item-title {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .service-8-info-item-subtitle {
     font-size: 25px;
     font-family: "Monserat Regular";
 }
-/* service-8 */
+
+.service-8-img-4 {
+    width: 70%;
+}
+
+.service-8-img-4 {
+    margin-bottom: 25px;
+}
+/* service-8! */
 
 /* service-10 */
 
@@ -989,6 +999,10 @@ img {
 
 .active-service-list-subtitle-1 {
     margin-left: 0 !important;
+}
+
+.service-10-title {
+    color: #fff;
 }
 
 /* service-10! */
@@ -1494,6 +1508,10 @@ img {
 
     .service-price-title {
         font-size: 24px !important;
+    }
+
+    .service-8-info-item-title {
+        flex-wrap: wrap;
     }
 
 }
