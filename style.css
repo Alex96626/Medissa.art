@@ -484,6 +484,8 @@ img {
     color: #22abde;
 }
 
+
+
 /* service-4! */
 
 /* service-5 */
@@ -493,6 +495,7 @@ img {
 }
 
 .container-service-5 {
+    position: relative;
     padding: 100px 15px;
 }
 
@@ -555,11 +558,19 @@ img {
 .service-item-picture {
     width: 186px;
     max-width: 100%;
-    padding: 15px 40px;
+    /* padding: 15px 40px; */
     display: flex;
     justify-content: center;
     align-items: center;
     background: #dbdbdb;
+}
+
+.service-item-img {
+    margin: 15px 40px;
+}
+
+.service-item-picture:hover, .service-item-picture:focus {
+    background: #1486bf;
 }
 
 .service-item-picture-active {
@@ -567,15 +578,23 @@ img {
 }
 
 .info-service-5 {
+    position: absolute;
     width: 100%;
+    display: none;
     padding: 33px 40px;
     margin-top: 36px;
     background: #117db8;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.info-service-5-active{
+    display: flex;
+
+}
+
 
 .info-service-5-title {
     font-size: 27px;
@@ -593,6 +612,7 @@ img {
 .img-stage-install-implant-list {
     position: relative;
     height: 430px;
+    margin-top: 200px;
     background: url(image/stage-install-implatn-fon.jpg) no-repeat;
 }
 

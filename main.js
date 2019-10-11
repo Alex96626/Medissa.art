@@ -20,6 +20,37 @@ document.addEventListener('DOMContentLoaded', () => {
                 $(event.target).parent().children(".active-service-price-list").slideToggle("slow");
         }
     });
+
+    selector(".service-5-list").addEventListener("click",(event)=>{
+        // console.log(event.target);
+
+        selectorAll(".service-5-item").forEach(function(element,i){
+
+            // selectorAll(".info-service-5").forEach(function(elem,j){
+                
+            // });
+            // console.log(elem);
+            // if(event.target)
+            // console.log(event.target);
+            
+        });
+    
+
+        for(let i = 0;i<=selectorAll(".service-5-item").length;i++){
+            console.log(selectorAll(".service-5-item")[i])
+        }
+
+        
+
+        // console.log(element);
+
+        // if(event.target.contains.classList("service-5-item")) {
+
+        //     event.target.add.classList("service-5-item-active")
+
+        // }
+
+    });
     
 
     // slider
@@ -87,6 +118,8 @@ $(function(){
         no_overlay: true,
     });
   });
+
+
 
 
   
