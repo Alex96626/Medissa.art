@@ -22,33 +22,34 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     selector(".service-5-list").addEventListener("click",(event)=>{
-        // console.log(event.target);
 
         selectorAll(".service-5-item").forEach(function(element,i){
-
-            // selectorAll(".info-service-5").forEach(function(elem,j){
-                
-            // });
-            // console.log(elem);
-            // if(event.target)
-            // console.log(event.target);
+            element.children[1].classList.remove("service-item-picture-active")
+            if(event.target.classList.contains("service-item-picture")){
+                event.target.classList.add("service-item-picture-active");
+            }
+            if(event.target.parentNode.classList.contains("service-item-picture")){
+                event.target.parentNode.classList.add("service-item-picture-active");
+            }
+            // console.log(selectorAll(".info-service-5"));
             
-        });
-    
+            // selectorAll(".info-service-5").classList.remove("info-service-5-active");
+            selectorAll(".info-service-5").forEach(function(elem_text){
+            //     console.log(element.children);
+            //     console.log(elem_text);
+                elem_text.classList.remove("info-service-5-active");
+            //     return elem_text;
+            // // console.log(i);
+            });
+            console.log(event.target);
+            console.log(element);
+            if(event.target === element) {
+                console.log('hello');
+            }
 
-        for(let i = 0;i<=selectorAll(".service-5-item").length;i++){
-            console.log(selectorAll(".service-5-item")[i])
-        }
+        });
 
         
-
-        // console.log(element);
-
-        // if(event.target.contains.classList("service-5-item")) {
-
-        //     event.target.add.classList("service-5-item-active")
-
-        // }
 
     });
     
