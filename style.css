@@ -578,7 +578,7 @@ img {
 }
 
 .info-service-5 {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     display: none;
     padding: 33px 40px;
@@ -621,6 +621,10 @@ img {
     top: -76px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.wrapper-info-service-5 {
+    position: absolute;
 }
 
 /* service-5! */
@@ -1414,6 +1418,10 @@ img {
     .service-8-left-info, .service-8-right-info  {
         margin: 0 15px;
     } 
+
+    .img-stage-install-implant-list {
+        margin-top: 300px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -1480,6 +1488,10 @@ img {
     .service-price-item {
         padding: 40px 15px 40px 25px;
     }
+
+    .img-stage-install-implant-list {
+        margin-top: 400px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -1532,6 +1544,10 @@ img {
 
     .service-8-info-item-title {
         flex-wrap: wrap;
+    }
+
+    .img-stage-install-implant-list {
+        margin-top: 500px;
     }
 
 }
