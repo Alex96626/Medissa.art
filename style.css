@@ -464,6 +464,7 @@ img {
 .form-record {
     width: 370px;
     max-width: 100%;
+    height: 340px;
     display: flex;
     flex-direction: column;
     padding: 50px 35px;
