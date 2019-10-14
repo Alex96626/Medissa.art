@@ -1079,6 +1079,7 @@ img {
 
 .service-11-video {
     width: 100%;
+    object-fit: cover;
 }
 
 .service-11-aboutus-lsit {
@@ -1588,6 +1589,10 @@ img {
 
     .img-stage-install-implant-list {
         margin-top: 500px;
+    }
+
+    .free-survey-item {
+        font-size: 24px;
     }
 
 }
