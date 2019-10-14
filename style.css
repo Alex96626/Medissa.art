@@ -231,6 +231,7 @@ img {
     font-size: 24px;
     line-height: 1.2em;
     text-align: center;
+    color: #7d817b;
 
 
 }
@@ -465,8 +466,9 @@ img {
 .free-survey-item {
     padding-left: 48px;
     margin: 28px 0;
-    font-size: 27px;
     background: url(image/list-icon.png) no-repeat left;
+    font-size: 27px;
+    color: #7d817b;
 }
 
 .form-record {
@@ -816,6 +818,7 @@ img {
 .service-8-info-item-subtitle {
     font-size: 25px;
     font-family: "Monserat Regular";
+    color: #7d817b;
 }
 
 .service-8-img-4 {
@@ -1069,6 +1072,7 @@ img {
     margin-top: 30px;
     font-size:20px;
     font-family:'Monserat Regular';
+    line-height: 1.6;
     color: #474d52;
 }
 
@@ -1087,12 +1091,18 @@ img {
 }
 
 .service-11-aboutus-item {
-    position: relative;
+    /* position: relative;
     margin: 10px 0;
-    padding: 10px 20px;
+    padding: 10px 20px; */
+    padding-left: 48px;
+    margin: 28px 0;
+    background: url(image/list-icon.png) no-repeat left;
+    font-size: 20px;
+    color: #7d817b;
 }
 
-.service-11-aboutus-item::before {
+
+/* .service-11-aboutus-item::before {
     content: ' ';
     position: absolute;
     left: 0;
@@ -1101,7 +1111,7 @@ img {
     width: 10px;
     height: 1px;
     background: black;
-}
+} */
 
 /* service-11! */
 
