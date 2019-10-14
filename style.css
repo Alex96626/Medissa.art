@@ -98,16 +98,18 @@ img {
 .service-1-title {
     font-size: 24px;
     line-height: 1.4em;
+    text-align: left !important;
 }
 
 .service-1-sub-title {
     font-size: 37px;
     line-height: 1.1em;
     color: #23aee0;
+    text-align: left !important;
 }
 
 .service-1-text {
-    margin-top: 12px;
+    /* margin-top: 12px; */
     color: #7d817b;
 }
 
@@ -183,6 +185,7 @@ img {
     font-size: 51px !important;
     line-height: 1.1em;
     text-align: center;
+    color: #23aee0;
 }
 
 .section-sub-title {
@@ -431,6 +434,11 @@ img {
     line-height: 1.1em;
     /* color: #fff; */
 
+}
+
+.service-4-title-blue {
+    display: inline-block;
+    color: #36b5e3;
 }
 
 .button-line {
@@ -1049,11 +1057,12 @@ img {
 }
 
 .service-11-left-info {
+    width: 670px;
+    max-width: 100%;
+    margin-right: 25px;
     display: flex;
     flex-direction: column;
     flex: 1;
-    width: 670px;
-    max-width: 100%;
 }
 
 .service-11-text {
@@ -1065,6 +1074,32 @@ img {
 
 .service-11-right-info {
     flex: 1;
+    align-self: center;
+}
+
+.service-11-video {
+    width: 100%;
+}
+
+.service-11-aboutus-lsit {
+    list-style:none ;
+}
+
+.service-11-aboutus-item {
+    position: relative;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+.service-11-aboutus-item::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 1px;
+    background: black;
 }
 
 /* service-11! */
@@ -1244,8 +1279,12 @@ img {
         flex-direction: column;
     }
 
+
+
     .service-11-left-info {
         width: auto;
+        margin-right: 0;
+        margin-bottom: 25px;
     }
 
     .active-service-list-subtitle-1 {
