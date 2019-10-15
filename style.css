@@ -496,7 +496,7 @@ img {
     flex: 1.4;
     font-size: 24px !important;
     line-height: 1.1em;
-    /* color: #fff; */
+    color: #7d817b;
 
 }
 
@@ -556,6 +556,10 @@ img {
     font-family: 'Monserat Regular';
     line-height: 1.8em;
     color: #22abde;
+}
+
+.service-4-form-record-sub-title {
+    font-size: 21px;
 }
 
 
