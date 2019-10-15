@@ -47,34 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         });
 
-        // selectorAll(".service-5-item").forEach(function(element,i){
-        //     element.children[1].classList.remove("service-item-picture-active")
-
-        //     if(event.target.closest("service-item-picture").classList.contains("service-item-picture")){
-        //         event.target.classList.add("service-item-picture-active");
-        //     }
-        //     if(event.target.parentNode.classList.contains("service-item-picture")){
-        //         event.target.parentNode.classList.add("service-item-picture-active");
-        //     }
-        //     selectorAll(".info-service-5").forEach(function(elem_text){
-        //         elem_text.classList.remove("info-service-5-active");
-        //     });
-        //     console.log(event.target);
-        //     console.log(element);
-        //     if(event.target === element) {
-        //         console.log('hello');
-        //     }
-
-        // });
-
-        
-
-    // });
-    
-
     // slider
-
-    
 
 $('.reviews-list').slick({
     infinite: true,
@@ -132,15 +105,17 @@ $('.examples-slider').slick({
 
 // slider!
 
-$(function(){
-    $(".examples-slider .slick-slide").twentytwenty({
-        no_overlay: true,
+    $(function(){
+        $(".examples-slider .slick-slide").twentytwenty({
+            no_overlay: true,
+        });
     });
-  });
 
+    // fancybox
+    jQuery(document).ready(function() {
+		jQuery(".play").fancybox();
+	});
 
-
-
-  
+    // fancybox!
 
 });
